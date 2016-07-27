@@ -1,0 +1,59 @@
+#homeMain {
+  margin-top: 100px;
+  padding: 0px;
+}
+
+#homeImage {
+  width: 100%;
+}
+
+#paragraph-1 {
+  border-bottom: 1px solid #DDDDDD;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#paragraph-1 h1 {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 70px;
+  color: #003399;
+}
+
+.demographics-features {
+  text-align: center;
+  border-bottom: 1px solid #DDDDDD;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.demographics-features img {
+  height: 130px;
+}
+
+.demographics-features p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.feature-title {
+  font-weight: 700;
+  line-height: 200%;
+}
+
+#paragraph-2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#paragraph-2 h1 {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 70px;
+  color: #003399;
+}

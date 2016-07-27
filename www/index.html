@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html ng-app="buyDemographicsApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Buy Demographics</title>
+    <script src="./lib/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="./lib/angular/angular.js" charset="utf-8"></script>
+    <script src="./lib/angular-ui-router/release/angular-ui-router.min.js" charset="utf-8"></script>
+    <script src="./lib/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="./app.js" charset="utf-8"></script>
+    <script src="./js/controllers/index-controller.js" charset="utf-8"></script>
+    <script src="./js/controllers/home-controller.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/open-sans-font.css" charset="utf-8">
+    <link rel="stylesheet" href="./css/roboto-font.css" charset="utf-8">
+    <link rel="stylesheet" href="./css/app.css" charset="utf-8">
+    <link rel="stylesheet" href="./css/home.css" charset="utf-8">
+  </head>
+  <body ng-controller="indexCtrl as iCtrl">
+    <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="./images/buy_demographics_logo.gif">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><button type="button" class="btn btn-default navbar-btn">Account Login</button></li>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+    </div>
+
+
+    <ui-view></ui-view>
+
+    <div class="container-fluid">
+      <div id="footer" class="row">
+        <div class="col-md-3 col-md-offset-6">
+          <h4 class="footer-title">Connect With Us</h4>
+            <img class="social-icons" src="./images/icon_twitter.png">
+            <img class="social-icons" src="./images/icon_linkedin.png">
+            <img class="social-icons" src="./images/icon_youtube.png">
+        </div>
+        <div class="col-md-3">
+          <h4 class="footer-title">Contact Us</h4>
+          <p>Buy Demographics</p>
+          <p>261 5th Ave</p>
+          <p>New York, NY 10016</p>
+          <p>Phone: 800-504-1708</p>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
