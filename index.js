@@ -6,7 +6,7 @@ const logger = require('morgan');
 const request = require('request');
 const mongoose = require('mongoose');
 const path = require('path');
-const port = 3000;
+const port = process.env.PORT || 3000;
 ///// Use bodyParser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended : true }));
