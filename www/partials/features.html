@@ -1,0 +1,53 @@
+<div class="features-wrapper">
+  <div class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div id="featuresMain" class="col-md-10 col-md-offset-1">
+          <h1 class="page-title">Features</h1>
+          <p>
+            Our demographics reports are filled with the demographic data you need to make
+            intelligent business decisions.  Should I buy that property?  Is this the right
+            neighborhood for my business?  Will the right customers come to my franchise?
+            What's the best location for my new practice?  Our demographics reports are designed
+            to help you with important questions like these.  Moreover, our professionally
+            produced demographic report can be a ready-to-use component of any real estate
+            property marketing package.
+          </p>
+        </div>
+      </div>
+      <div class="row" ng-repeat="feature in fCtrl.features">
+        <div id="featuresList" class="col-md-10 col-md-offset-1">
+          <div class="col-md-2">
+            <img class="feature-image" ng-src="{{feature.img}}">
+          </div>
+          <div class="col-md-10">
+            <h2>{{feature.title}}</h2>
+            <p class="feature-body">{{feature.body}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="featuresStats" class="col-md-10 col-md-offset-1">
+          <h2>Plus the most vital statistics for measuring Demographics:</h2>
+          <h5>Summary Demographic Report, Census 2010</h5>
+          <p>
+            Population, Sex, Age, Race/Ethnicity, Education, Marital Status, Households,
+            Household Type, Household Size,Household Income, Housing Occupancy/Tenure
+          </p>
+          <h5>Full Demographic Report, Census 2010</h5>
+          <p>
+            Population, Age by Sex, Race/Ethnicity, Education by Sex, Marital Status by Sex,
+            Households, Presence of Children, Household Size, Detailed Household Income,
+            Transportation to Work, Travel Time to Work, Housing Units: Year Structure Built,
+            Home Value (Owner-Occupied)
+          </p>
+          <h5>2013 American Community Survey</h5>
+          <p>
+            <b>Business Data</b> - Percentage employed in standard industry classifications.<br/>
+            <b>Household Data</b> - Household Size, Housing Occupancy (Owner vs. Renter)
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+#featuresMain {
+  margin-top: 100px;
+  padding: 0px;
+}
+
+.page-title {
+  margin-bottom: 40px;
+}
+
+.feature-image {
+  border-radius: 50%;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.feature-body {
+  font-size: 14px;
+}
+
+#featuresList {
+  padding: 10px;
+}
+
+#featuresStats p{
+  font-size: 14px;
+}

@@ -11,6 +11,11 @@ angular.module('buyDemographicsApp', ['ui.router'])
         templateUrl : 'partials/home.html',
         controller  : 'homeCtrl as hCtrl'
       })
+      .state('features', {
+        url: '/features',
+        templateUrl : 'partials/features.html',
+        controller  : 'featuresCtrl as fCtrl'
+      })
 
       $urlRouterProvider.otherwise('/')
   }

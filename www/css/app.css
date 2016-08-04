@@ -62,3 +62,31 @@ body {
 .social-icons {
   padding: 5px;
 }
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+  line-height: 120%;
+  padding: 0;
+  margin: 20px 0 10px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.content {
+  padding: 20px 40px;
+}
